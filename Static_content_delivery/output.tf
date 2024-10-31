@@ -1,4 +1,4 @@
-output "aws_cloudfront_distribution_domain_name" {
-  value = module.cloudfront.aws_cloudfront_distribution_domain_name
+output "alb_dns_endpoint" {
+  value = module.alb.alb_dns_endpoint
 
 }

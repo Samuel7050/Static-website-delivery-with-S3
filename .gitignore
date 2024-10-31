@@ -12,6 +12,7 @@ crash.log
 # Ignore CLI config files
 .terraformrc
 terraform.rc
+.terraform.lock.hcl
 
 # Ignore Terraform provider binary files
 .terraform/
