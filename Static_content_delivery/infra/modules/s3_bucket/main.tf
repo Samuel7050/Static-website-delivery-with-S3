@@ -44,6 +44,6 @@ resource "aws_s3_bucket_website_configuration" "bucket_website_config" {
 resource "aws_s3_object" "file" {
   bucket       = aws_s3_bucket.static_bucket.id
   key          = var.bucket_key    
-  source       = "${path.module}/index.html"   
+  source       = "${path.module}/website/index.html"   
   content_type = "text/html"
 }
